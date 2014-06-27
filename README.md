@@ -9,7 +9,7 @@ Please see the [Live Demo!](http://ml-product-identifiers.herokuapp.com)
 
 If you wish to host this application on your own, please note that:
 * You should use a [MercadoLibre application](http://applications.mercadolibre.com), since you need to be logged in to send Product Identifiers data for your items.
-* You should provide your own application's [Client ID, Client Secret and Redirect URL](http://developers.mercadolibre.com/first-step). You'll find configuration placeholders for those values at Config.groovy ( pi.ml.credentials )
+* You should provide your own application's [Client ID, Client Secret and Redirect URL](http://developers.mercadolibre.com/first-step). You'll find configuration placeholders for those values at [Config.groovy](https://github.com/mercadolibre/productidentifiers-frontend-demo/blob/master/grails-app/conf/Config.groovy) ( pi.ml.credentials )
 
 ======
 
