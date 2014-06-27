@@ -1,0 +1,366 @@
+	#wrapper{
+		height: auto;
+		min-height: 100%;
+	}
+	p {
+		font-family: "Lato-Lig", Helvetica, Arial;
+		text-align: left;
+		font-size: 18px;
+		color: #7F7F7F;
+	}
+	h1,h2,h3{
+		font-family: "Lato", Helvetica, Arial;;
+		color: #2a3a86;
+		text-shadow: 2px 2px 2px #333;
+		margin: 30px 0;
+	}
+	h1{
+		font-family: "Lato-Lig", Helvetica, Arial;;
+		font-size: 3em;
+		font-weight: 500;
+	}
+	h2{
+		font-family: "Lato", Helvetica, Arial;;
+		font-size: 3em;
+		margin: 51px 0;
+		text-align: left;
+	}
+		h2 span{
+			display: block;
+			font-size: 18px;
+			font-family: "Lato-Lig", Helvetica, Arial;;
+			font-weight: 500;
+			color: #7F7F7F;
+		}
+		h2 span a{
+			color: #0033D8 !important;
+			text-decoration: none !important;
+		}
+	h3{
+		/*font-family: "Lato-Bol", Helvetica, Arial;;*/
+		font-size: 36px;
+		text-align: left;
+		margin: 0 0 18px 0;
+		font-weight: 200;
+	}
+	strong{
+		font-family: "Lato-Bol", Helvetica, Arial;;
+		font-weight: 100;
+	}
+	.common{
+		margin: 0 auto;
+		max-width: 1200px;
+		padding: 0 12px 70px 0;
+		
+	}	
+	.common-content{
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	.wrapperCultura, .wrapperCrece, .wrapperEquipo  {
+		max-width: 860px;
+		margin: 0 auto;
+	}
+	.wrapperEquipo {
+		max-width: 930px;
+		margin: 0 auto;
+	}
+	
+	.bg-gray{
+		background: #f9f9f9;
+		border-top: 1px solid #ededed;
+		padding: 0 0 60px 0;
+		
+	}
+	.bg-white{
+		background: #fff;
+	}
+	
+	.hidden{
+		visibility:  hidden;
+		display: none;
+	}
+	.last{
+		margin-bottom:0 !important;
+	}
+	
+	
+article {
+	padding: 6em 3em;
+}
+article.table {
+	padding:9em 0;
+}
+article h2 {
+	text-shadow: 2px 2px 2px #ccc;
+	font-size: 2.8em;
+	padding: 1em 0 .5em 0;
+	margin: 0;
+	color: #335966;
+	line-height: 1.2em;
+}
+article p {
+	font-size: 1.42em;
+	color: #335966;
+}
+aside {
+	padding: 6.5em 3em 3em 3em;
+}
+aside img {
+	width: auto;
+}
+ul {
+	float: left;
+	width: 32%;
+	margin-top: 2em;
+}
+ul li {
+	background-color: #E5EAEC;
+	margin: 10px 10px 10px 0;
+	padding: 8px;
+	-webkit-border-radius: 10px;
+}
+ul li:hover {
+	background-color: #335966;
+}
+ul li:hover a {
+	color: #E5EAEC;
+	text-shadow: 2px 2px 2px #000;
+}
+ul li a {
+	margin:0; 
+	background:url(http://www.mercadolibre.com/org-img/homesnw/img/spriteflags2.gif) no-repeat;
+	text-align: left;
+	padding-left: 40px;
+	display: block;
+	color:#335966;
+	text-shadow: 2px 2px 2px #ccc;
+
+	
+}
+ul li.argentina a {background-position:0 0;}
+ul li.brasil a {background-position:0 -15px;}
+ul li.colombia a {background-position:0 -30px;}
+ul li.costarica a {background-position:0 -45px;}
+ul li.chile a {background-position:0 -60px;}
+ul li.dominicana a {background-position:0 -165px;}
+ul li.ebay a {background-position:0 -75px;}
+ul li.ecuador a {background-position:0 -90px;}
+ul li.mexico a {background-position:0 -105px;}
+ul li.panama a {background-position:0 -120px;}
+ul li.peru a {background-position:0 -135px;}
+ul li.portugal a {background-position:0 -150px;}
+ul li.uruguay a {background-position:0 -180px;}
+ul li.venezuela a {background-position:0 -195px;}
+ul li.flags a {padding-left:80px; margin-top:20px;}
+
+
+.logoContainer {padding-left: 20px;margin-top: 20px;}
+
+p.user {
+	position: relative;
+	right: 0;
+	width: 100%;
+	text-align: right;
+	bottom: 21px;
+	font-size: 1.3em;
+	color: #ccc;
+}
+
+p.user a {color:#ccc;}
+
+/* Top Bar */
+	
+	#top-bar {
+	    background-color:  #335966;
+	    height: 115px;
+	    left: 0;
+	    position: fixed;
+	    top: 0;
+	    width: 100%;
+	    z-index: 999;
+	    border-bottom: 1px solid #666;
+	    -webkit-box-shadow: 0px 3px 6px #ccc;
+	}
+
+	#top-bar h1 {
+		color: #f7f7f7;
+		font-size: 2.5em;
+		padding: 1.7em 0 0 0;
+		margin: 0;
+		text-shadow: 2px 2px 2px #000;
+	}
+
+	#top-bar header{
+		overflow: hidden;
+	}
+
+		#top-bar header nav{
+			float: right;
+			margin: 19px 0 0;
+			text-align: right;
+		}
+		#top-bar header nav ul{
+			list-style-type: none;
+		    overflow: hidden;
+		}
+			#top-bar header nav ul li{
+				float: left;
+				margin: 0 13px 0;
+			}
+			#top-bar header nav ul li.dc-main-navigation-item-selected{
+				border-bottom: 3px solid #888124;
+				color: #333 !important;
+				text-shadow: 0 0 2px #B7AE28;
+			}
+			#top-bar header nav ul li a{
+				color: #4C4B31;
+				text-decoration: none;
+				height: 30px;
+				display: block;
+				font-family: Helvetica, Arial,"Nimbus Sans L",sans-serif;
+				font-weight: lighter;
+			}
+			#top-bar header nav ul li a:hover{
+				color: #333;
+				text-shadow:0 0 2px #B7AE28;
+			}
+	/* End Top-Bar */
+
+	/* Main Content*/
+	.main-content {
+	    color: #333333;
+	    font-family: 'Lato', Helvetica, Arial;;
+	    font-weight: 300;
+	    max-width: 100%;
+	    padding: 52px 0 0;
+	    text-align: center;
+	    overflow: hidden;
+	}
+
+
+	section.explanation { overflow: hidden; }
+	section.explanation ul { margin: 0 auto; width: 900px; padding: 60px 0; overflow: hidden;}
+	section.explanation ul li {float: left; width: 125px;}
+	section.explanation ul li p {width: 125px; text-align: center;}
+	
+	div.wrapperWinners { background-color: #ededed;}	
+	div.winners { height: 210px;}
+	div.winners ul {margin: 0 auto; width: 480px;}
+	div.winners ul li {float: left; margin-right: 8px;}	
+	div.winners p {width: 100%;text-align: center; float: left;}
+
+	#terminos {}
+	#terminos p {width: 65%; margin: 0 auto;}
+
+	/* End Main-Content*/
+
+	/* Footer */
+	footer{
+		height: 45px;
+		padding: 10px;
+		background: none repeat scroll 0 0 #F8F8F8;
+		border-top: 1px solid #ededed;
+		position:fixed;
+		bottom:0;
+		width:100%;
+	}
+	footer .logo-footer{
+		float: left;
+	}
+	footer .logo-footer span{
+		background: url("../images/logo.png") no-repeat scroll 0 0 transparent;
+		background-size: 44px 32px;
+		width: 44px;
+		height: 32px;
+		display: inline-block;
+		margin: 0 8px 0 0;
+	}
+	footer .copyright{
+		float: left;
+		padding: 7px 0;
+	}
+	footer nav{
+		float: left;
+	}
+	footer nav ul{
+		margin: 7px 0;
+	}
+	footer nav ul li {
+	    border-right: 1px solid #CCCCCC;
+	    display: inline;
+	    padding: 0 10px;
+	}
+	footer nav ul li:last-child {
+		border: medium none;
+	}
+	footer nav ul li a{
+		color: #0033D8 !important;
+		text-decoration: none; 
+	}
+	footer nav ul li a:hover{
+		text-decoration:  underline !important;
+	}
+	/* End Footer*/
+
+	@media screen and (min-width:1300px) {
+		
+
+	}
+	@media screen and (max-width:768px) {
+		aside {
+			position: absolute;
+			top: -2em;
+			width: 90%
+		}
+		article {
+			position: absolute;
+			top: 420px;
+			text-align: center;
+		}
+
+
+	}
+
+
+	@media screen and (max-width:480px) {
+		aside img {
+			width: 80%
+		}
+		aside {
+			position: absolute;
+			top: 0;
+			padding: 9em 0;
+			
+		}
+		article {
+			position: absolute;
+			top: 320px;
+			text-align: center;
+		}
+		
+		.common{
+		margin: 0 auto;
+		max-width: 1200px;
+		padding: 0 12px;
+		}
+		
+		footer{
+		height: 20px;
+		padding: 10px;
+		background: none repeat scroll 0 0 #F8F8F8;
+		border-top: 1px solid #ededed;
+	}
+
+	}
+	
+	
+	
+.ch-icon-remove:before {
+	color: #ff0000;
+}
+
+.ch-icon-ok:before {
+	color: #449944;
+}
+
