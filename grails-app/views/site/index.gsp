@@ -27,7 +27,7 @@
 				<article>
 
 					<h2>Posiciona tu publicación en Google y mejora tu descripción en MercadoLibre</h2>
-					<p>Asocia los códigos de identificación de los productos que has publicado en MercadoLibre para beneficiarte de nuevas funcionalidades y tener la posibilidad de que mas gente pueda conocerte a través de Google y su motor de búsqueda.</p>
+					<p>Asocia los códigos de identificación de los productos que has publicado en MercadoLibre para beneficiarte de nuevas funcionalidades y tener la posibilidad* de que mas gente pueda conocerte a través de Google y su motor de búsqueda.</p>
 					<ul>
 						<li class="argentina"><a id="AR" href="/manager/AR">Argentina</a></li>
 						<li class="brasil"><a id="BR" href="/manager/BR">Brasil</a></li>
@@ -54,13 +54,21 @@
 	</div>
 	<footer>
 			<div class="common">
-				2014 Todos los derechos reservados
-				<!--div class="logo-footer"><span></span></div>
-				<div class="copyright"><span>Copyright &copy 1999-2013 MercadoLibre S.R.L</span></div-->
+				2014 Todos los derechos reservados</br>
+				(*) Sujeto a revisión por parte de MercadoLibre
 			</div>
 		</footer>
 	<script src="js/jquery.js"></script>
 	<script src="js/chico-min-0.13.3.js"></script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-52066568-1', 'ml-product-identifiers.herokuapp.com');
+		ga('send', 'pageview');
+	</script>
 	
 </body>
 </html>
