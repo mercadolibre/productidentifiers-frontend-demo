@@ -74,7 +74,7 @@
 		</div>
 	<footer>
 			<div class="common">
-				2014 Todos los derechos reservados
+				<g:message code="pi.footer.rights"/>
 				<!--div class="logo-footer"><span></span></div>
 				<div class="copyright"><span>Copyright &copy 1999-2013 MercadoLibre S.R.L</span></div-->
 			</div>
